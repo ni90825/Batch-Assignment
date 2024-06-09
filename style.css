@@ -5,6 +5,14 @@ html{
 img{
     transition: all 0.4s ease-in-out !important;
 }
+
+.sprinkle{
+    width: 180px;
+    height: 180px;
+    filter: blur(40px);
+    z-index: 0;
+}
+
 body{
     width:85%;
     margin-left:auto !important;
