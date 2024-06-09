@@ -2,6 +2,9 @@ html{
     width:100%;
     overflow-x: hidden;
 }
+img{
+    transition: all 0.4s ease-in-out !important;
+}
 body{
     width:85%;
     margin-left:auto !important;
@@ -182,7 +185,9 @@ input{
 .icons{
     display:none;
 }
-
+img:hover{
+    scale:1.04;
+}
 @media screen and (max-width:1200px)  {
     body{
         width:95%;
