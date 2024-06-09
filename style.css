@@ -1,0 +1,231 @@
+html{
+    width:100%;
+    overflow-x: hidden;
+}
+body{
+    width:85%;
+    margin-left:auto !important;
+    margin-right:auto !important;
+    overflow-x: hidden;
+}
+#headingname{
+    font-family:sans-serif;
+    color:black;
+    font-weight:700;
+    font-size: 35px;
+    text-align: center;
+    cursor: pointer;
+}
+.iconsection{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    gap:7px;
+    cursor: pointer;
+}
+.navitems{
+    font-family: 'Clash Display', sans-serif;
+    font-weight: 500;
+    font-size:21px;
+    align-items: center;
+    gap:10px;
+    cursor: pointer;
+}
+.firstheadersection{
+    display:flex;
+    align-items: center;
+    gap:50px;
+}
+.secondheadersection{
+    display:flex;
+    flex-direction:row;
+    gap:10px;
+    align-items: center;
+}
+nav,main{
+    /* width:85%; */
+    margin:auto;
+}
+
+nav{
+    margin-top: 20px;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+main > div > span:nth-child(2){
+    display:flex;
+    gap:20px;
+}
+.download{
+    background-color: black;
+    cursor: pointer;
+    width:180px;
+    height:60px;
+    border-radius:4px;
+    color:white;
+    font-family: 'Clash Display', sans-serif;
+    font-weight:500;
+    font-size:19px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.download:hover{
+    background-color: #e01313;
+    color: rgb(249, 249, 249);
+}
+.download:active{
+    background-color: #ff5454;
+}
+.navactive{
+    font-weight:600;
+    color: #FF5555;
+}
+
+main .maintext{
+    font-size:64px;
+    font-family:'Clash Display', sans-serif;
+    font-weight:800;
+    /* line-height:64px; */
+}
+/* .firstmain > div{
+    width:50%;
+} */
+main{
+    font-family:'Clash Display', sans-serif;
+}
+.watchvideo{
+    font-weight:500;
+    font-size:19px;
+    line-height:28px;
+}
+.sectiontext{
+    font-family:'Clash Display', sans-serif;
+    color: #FF5555;
+    font-weight:500;
+    font-size:15px;
+    letter-spacing: 2px;
+}
+.midsectiontext{
+    font-weight:700;
+    font-family:'Clash Display', sans-serif;
+    font-size:35px;
+}
+.secondsectiontext{
+    font-weight:700;
+    font-family:'Clash Display', sans-serif;
+    font-size:15px;
+}
+.testimonialmaintext{
+    font-weight:700;
+    width:48%;
+    text-align:center;
+}
+.gridsectionwhite{
+    /* padding:30px; */
+}
+
+.gridsectionred{
+  /* background-color: #FF5555; */
+  /* color:white; */
+  /* border-radius:4px; */
+  /* padding:30px; */
+}
+
+footer{
+    /* width:85%; */
+    margin:auto;
+    margin-top:15px;
+}
+.footersubtext{
+    font-family:'Clash Display', sans-serif;
+    font-weight:500
+}
+.footermainsubtext{
+    font-family: 'Clash Display', sans-serif;
+    font-weight:500;
+    font-size:25px;
+}
+.footersubsubtext{
+    font-family: 'Clash Display', sans-serif;
+    font-weight:400;
+    font-size:16px;
+    cursor: pointer;
+}
+.footersubsubtext:hover{
+    color: #FF5555;
+}
+input{
+    font-family: 'Clash Display', sans-serif;
+    background-color:transparent;
+    outline:0px;
+}
+.subscribesection{
+        background-color: #fdfdfd;
+        padding:10px;
+        border-radius:4px;
+}
+.footerline{
+    width:100%;
+    height:2px;
+    background: linear-gradient(to right, white, rgb(126, 126, 126), white);
+    margin-top:10px;
+}
+.copyrightsection{
+    font-family: 'Clash Display', sans-serif;
+    font-weight: 500;
+    margin-top: 20px;
+    text-align:center;
+}
+.icons{
+    display:none;
+}
+
+@media screen and (max-width:1200px)  {
+    body{
+        width:95%;
+
+    }
+    html{
+        width:100%;
+    }
+
+
+}
+
+.gridsectttion{
+    transition:all 0.2s ease-in-out !important;
+}
+
+.gridsectttion:hover{
+    box-shadow: 0px 10px 4px rgb(172, 172, 172);
+}
+
+.activemodal{
+    top:0% !important;
+}
+.modals{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+    z-index: 500;
+    transition: all 0.3s ease-in-out;
+    top:-70%;
+}
+
+@media screen and (max-width:770px) {
+    .headersection{
+        display:none !important;
+    }
+    .download{
+        width: 150px;
+        height: 50px;
+        font-size:15px;    
+    }
+    .icons{
+        display: block;
+    }
+}

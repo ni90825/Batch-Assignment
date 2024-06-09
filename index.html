@@ -1,0 +1,272 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nitesh Batch Assignment - uifry</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://api.fontshare.com/v2/css?f[]=clash-display@200,300,400,500,600,700&display=swap" rel="stylesheet">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: '#da373d',
+            }
+          }
+        }
+      }
+    </script>
+
+    <style type="text/tailwindcss">
+        @layer utilities {
+          .content-auto {
+            content-visibility: auto;
+          }
+        }
+      </style>
+</head>
+<body>
+    <nav>
+        <div class="firstheadersection">
+            <span class="iconsection">
+                <img src="./assets/headingicon.svg" width="35">
+                <span id="headingname">uifry</span>
+            </span>
+            <span class="flex gap-x-[10px] headersection">
+                <span class="navitems navactive">Home</span>
+                <span class="navitems">About Us</span>
+                <span class="navitems">Pricing</span>
+                <span class="navitems">Features</span>
+            </span>
+        </div>
+        <div class="secondheadersection">
+            <div class="download">Download</div>
+          <div class="icons"><img class="iconsimage max-w-[unset]" src="./assets/hamburgericon.svg" alt="mobile-menu" style="width: 25px;"></div>
+          </div>
+          <div class="w-full bg-black fixed left-0 right-0 modals p-4">
+            <div class="crossicon flex justify-end">
+              <img src="./assets/crossicon.png" width="26" height="26">
+            </div>
+            <span class="text-white navactive">Home</span>
+            <span class="text-white">About Us</span>
+            <span class="text-white">Pricing</span>
+            <span class="text-white">Features</span>
+          </div>
+    </nav>
+
+    <main class="mt-14 flex lg:flex-row flex-col-reverse firstmain">
+        <div class="mainfirstsection lg:w-[50%] w-100" >
+            <div class="maintext leading-[64px]" data-aos="fade-right" data-aos-delay="300">Make The Best Financial Decisions</div>
+            <div class="mt-7" data-aos="fade-right" data-aos-delay="400">
+                <span class="text-slate-500 font-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum nisi libero hic quos repudiandae nam unde!</span>
+                <div class="mt-7 flex items-center gap-x-[50px]">
+                    <div class="download"><span>Get Started</span><img src="./assets/Vector 1.svg" width="29" height="29" class="ml-3"></div>
+
+                    <div class="flex gap-x-[10px] cursor-pointer"><img src="./assets/play.svg"> <span class="watchvideo">Watch Video</span></div>
+                </div>
+            </div>
+            <div>
+              <img src="./assets/HEADERBAND.png" class="max-w-[77%] lg:mx-0 mx-auto" data-aos="fade-right" data-aos-delay="500">
+            </div>
+        </div>
+        <div class="mainsecondsection lg:w-[50%] lg: w-100 relative" data-aos="zoom-in" data-aos-delay="400">
+           <img src="./assets/herosection.png" width="100%" class="lg:absolute lg:top-[-9%] xl:right-[-10%] lg:max-w-[unset] max-w-[87%] lg:mx-0 mx-auto" data-aos="zoom-in-up">
+        </div>
+    </main>
+
+    <main class="mt-14 flex lg:flex-row flex-col">
+      <div class="flex-1 relative">
+        <img src="./assets/secondsectionimage.png" class="w-[500px] mx-auto" data-aos="fade-down-left" data-aos-delay="400">
+      </div>
+      <div class="flex-1 flex flex-col">
+        <div class="sectiontext" data-aos="fade-left" data-aos-delay="300">FEATURES</div>
+        <div class="midsectiontext" data-aos="fade-left" data-aos-delay="300">Uifry Premium</div>
+
+        <div class="flex-1 flex flex-col justify-around gap-y-[20px]">
+          <div class="flex flex-col gap-y-[10px]" data-aos="fade-left" data-aos-delay="450">
+            <span class="flex gap-x-[10px]">
+              <img src="./assets/star.svg"><span class="secondsectiontext">Budgeting Intervals</span>
+            </span>
+            <p class="secondsectionsubtext text-slate-500 font-medium">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit quo culpa explicabo aspernatur laudantium sit tempora ipsa rem suscipit sint.
+            </p>
+          </div>
+          <div class="flex flex-col gap-y-[10px]" data-aos="fade-left" data-aos-delay="520">
+            <span class="flex gap-x-[10px]">
+              <img src="./assets/hexagon.svg"><span class="secondsectiontext">Budgeting Intervals</span>
+            </span>
+            <p class="secondsectionsubtext text-slate-500 font-medium">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit quo culpa explicabo aspernatur laudantium sit tempora ipsa rem suscipit sint.
+            </p>
+          </div>
+          <div class="flex flex-col gap-y-[10px]" data-aos="fade-left" data-aos-delay="580">
+            <span class="flex gap-x-[10px]">
+              <img src="./assets/rectangle.svg"><span class="secondsectiontext">Budgeting Intervals</span>
+            </span>
+            <p class="secondsectionsubtext text-slate-500 font-medium">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit quo culpa explicabo aspernatur laudantium sit tempora ipsa rem suscipit sint.
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <main class="flex items-center justify-center md:flex-row flex-col-reverse">
+      <div class="flex flex-col">
+        <div class="sectiontext md:text-left text-center" data-aos="fade-right" >ADVANTAGES</div>
+        <div class="midsectiontext mb-[0px]  text-center md:text-left" data-aos="fade-right" >Why Choose Urify?</div>
+        <div class="flex-1 flex flex-col gap-y-[25px]" data-aos="fade-right">
+          <span class="flex gap-x-[10px] items-center"><img src="./assets/bell.png" class="w-[35px]">
+            <span class="font-[600] text-[20px]">Clever Notifications</span>
+          </span>
+          <p class="text-slate-500 font-medium md:w-[80%]" data-aos="fade-right" data-aos-delay="500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam fugiat cupiditate harum voluptatem odio ea. Sit, earum ipsam omnis, incidunt eum laudantium nulla voluptatum necessitatibus recusandae sed possimus deserunt assumenda saepe illo facere debitis optio modi nihil commodi.</p>
+        </div>
+        </div>
+      <div class="flex-1 relative w-[400px]" data-aos="fade-left">
+        <img src="./assets/thirdsectionimage.png" class="md:w-[430px] w-[360px] mx-auto max-w-[unset]">
+      </div>
+        </main>
+
+    <main class="mt-14 flex items-center md:flex-row flex-col">
+      <div class="flex-1 relative" data-aos="fade-right">
+        <img src="./assets/fourthsectionimage.png" class="w-[470px] mx-auto">
+      </div>
+        <div class="flex-1 flex flex-col gap-y-[25px]">
+          <span class="flex gap-x-[10px] items-center" data-aos="fade-left"><img src="./assets/bell.png" class="w-[35px]">
+            <span class="font-[600] text-[20px]">Fully Customizable</span>
+          </span>
+          <p class="text-slate-500 font-medium md:w-[90%] w-full" data-aos="fade-left" data-aos-delay="500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam fugiat cupiditate harum voluptatem odio ea. Sit, earum ipsam omnis, incidunt eum laudantium nulla voluptatum necessitatibus recusandae sed possimus deserunt assumenda saepe illo facere debitis optio modi nihil commodi.</p>
+        </div>
+    </main>
+
+    <main>
+      <div class="flex flex-col items-center justify-center" data-aos="zoom-in">
+        <div class="sectiontext font-[600]" style="color:black;">TESTIMONIAL</div>
+        <div class="testimonialmaintext lg:text-[50px] lg:leading-[50px] text-[30px]">What Our Users Say About Us ?</div>
+      </div>
+      <div class="flex gap-x-[30px] md:flex-row flex-col-reverse">
+      <div class="flex-1 relative" data-aos="fade-right">
+        <img src="./assets/testimonial.png" class="w-[400px] mx-auto">
+      </div>
+        <div class="flex-1 flex flex-col gap-y-[25px] justify-center">
+          <span class="flex gap-x-[10px] items-center" data-aos="fade-left" data-aos-delay="300">
+            <span class="font-[600] text-[20px]">The Best Financial Accounting App Ever!</span>
+          </span>
+          <div class="text-slate-500 font-medium md:w-[80%] w-[100%]" data-aos="fade-left" data-aos-delay="400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam fugiat cupiditate harum voluptatem odio ea. Sit, earum ipsam omnis, incidunt eum laudantium nulla voluptatum necessitatibus recusandae sed possimus deserunt assumenda saepe illo facere debitis optio modi nihil commodi.</div>
+          <img src="./assets/testimonialcolumn.svg" style="width:30%;" data-aos="fade-left" data-aos-delay="450">
+          <div class="secondsectiontext" style="font-weight: 600;" data-aos="fade-left" data-aos-delay="450">Nick Jones</div>
+        </div>
+        </div>
+    </main>
+
+    <main class="mt-14">
+      <div data-aos="fade-right">
+        <div class="sectiontext">FAQ</div>
+        <div class="midsectiontext mb-[25px]">Frequently Asked Questions</div>
+      </div>
+
+      <div>
+        <div class="askquestionsection grid md:grid-cols-2 grid-cols-1 grid gap-7">
+          <div class="gridsectttion gridsectionred bg-[#FF5555] text-[white] rounded p-8" data-aos="fade-right" data-aos-delay="300">
+          <span class="font-[600] text-[20px]">The Best Financial Accounting App Ever!</span>
+          <p class="font-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates adipisci ipsum atque expedita itaque, eveniet illo maxime?</p>
+        </div>
+
+        <div class="gridsectttion p-8" data-aos="fade-left" data-aos-delay="350">
+          <span class="font-[600] text-[20px]">The Best Financial Accounting App Ever!</span>
+          <p class="font-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates adipisci ipsum atque expedita itaque, eveniet illo maxime?</p>
+        </div>
+
+          <div class="gridsectttion bg-[#FF5555] text-[white] rounded p-8 md:bg-[white] md:text-[black]" data-aos="fade-right" data-aos-delay="400">
+          <span class="font-[600] text-[20px]">The Best Financial Accounting App Ever!</span>
+          <p class="font-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates adipisci ipsum atque expedita itaque, eveniet illo maxime?</p>
+        </div>
+
+        <div class="gridsectttion md:bg-[#FF5555] md:text-[white] rounded p-8" data-aos="fade-left" data-aos-delay="450">
+          <span class="font-[600] text-[20px]">The Best Financial Accounting App Ever!</span>
+          <p class="font-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates adipisci ipsum atque expedita itaque, eveniet illo maxime?</p>
+        </div>
+
+        <div class="gridsectttion gridsectionred bg-[#FF5555] text-[white] rounded p-8" data-aos="fade-right" data-aos-delay="500">
+          <span class="font-[600] text-[20px]">The Best Financial Accounting App Ever!</span>
+          <p class="font-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates adipisci ipsum atque expedita itaque, eveniet illo maxime?</p>
+        </div>
+
+        <div class="gridsectttion p-8" data-aos="fade-left" data-aos-delay="550">
+          <span class="font-[600] text-[20px]">The Best Financial Accounting App Ever!</span>
+          <p class="font-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates adipisci ipsum atque expedita itaque, eveniet illo maxime?</p>
+        </div>
+
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="flex md:flex-row flex-col items-center md:items-start justify-between flex-wrap gap-[60px]">
+      <div class="flex flex-col gap-y-[10px] items-center md:items-start">
+        <span class="iconsection" data-aos="fade-right" data-aos-delay="300">
+          <img src="./assets/headingicon.svg" width="25">
+          <span id="headingname">uifry</span>
+      </span>
+      <span class="iconsection" data-aos="fade-right" data-aos-delay="350">
+        <img src="./assets/mail.svg" width="15">
+        <span class="footersubtext">Help@Frybix.com</span>
+    </span>
+    <span class="iconsection" data-aos="fade-right" data-aos-delay="400">
+      <img src="./assets/phone.svg" width="15">
+      <span class="footersubtext">+1234 456 678 879</span>
+  </span>
+      </div>
+      <div class="flex flex-col gap-y-[16px] items-center md:items-start">
+        <p class="footermainsubtext" data-aos-delay="500" data-aos="fade-down">Links</p>
+        <p class="footersubsubtext" data-aos-delay="450" data-aos="fade-down">Home</p>
+        <p class="footersubsubtext" data-aos-delay="400" data-aos="fade-down">About Us</p>
+        <p class="footersubsubtext" data-aos-delay="350" data-aos="fade-down">Booking</p>
+        <p class="footersubsubtext" data-aos-delay="300" data-aos="fade-down">Blog</p>
+      </div>
+      <div class="flex flex-col gap-y-[16px] items-center md:items-start">
+        <p class="footermainsubtext" data-aos-delay="500" data-aos="fade-down">Legal</p>
+        <p class="footersubsubtext" data-aos-delay="450" data-aos="fade-down">Terms Of Use</p>
+        <p class="footersubsubtext" data-aos-delay="400" data-aos="fade-down">Privacy Policy</p>
+        <p class="footersubsubtext" data-aos-delay="350" data-aos="fade-down">Cookie Policy</p>
+      </div>
+      <div class="flex flex-col gap-y-[16px] items-center md:items-start">
+        <p class="footermainsubtext" data-aos-delay="500" data-aos="fade-down">Product</p>
+        <p class="footersubsubtext" data-aos-delay="450" data-aos="fade-down">Take Tour</p>
+        <p class="footersubsubtext" data-aos-delay="400" data-aos="fade-down">Live Chat</p>
+        <p class="footersubsubtext" data-aos-delay="350" data-aos="fade-down">Reviews</p>
+      </div>
+      <div class="flex flex-col gap-y-[16px] items-center md:items-start">
+        <p class="footermainsubtext" data-aos-delay="500" data-aos="fade-left">Newsletter</p>
+        <p class="footersubsubtext" data-aos-delay="450" data-aos="fade-left">Stay Up To Date</p>
+        <div class="flex subscribesection" data-aos-delay="400" data-aos="fade-left">
+          <input type="email" placeholder="Your Email">
+          <div class="download" style="font-weight: 400;">Subscribe</div>
+        </div>
+      </div>
+      </div>
+    <div class="footerline"></div>
+    <div class="copyrightsection" style="width:100%">Copyright2022 Uifry.Com All Rights Reserved</div>
+      </footer>
+
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+        AOS.init({
+          duration: 750,
+        });
+
+        document.getElementsByClassName("icons")[0].addEventListener("click",()=>{
+          document.getElementsByClassName("modals")[0].classList.add("activemodal");
+        })
+
+        document.getElementsByClassName("crossicon")[0].addEventListener("click",()=>{
+          document.getElementsByClassName("modals")[0].classList.remove("activemodal");
+        })
+
+      </script>
+</body>
+</html>
